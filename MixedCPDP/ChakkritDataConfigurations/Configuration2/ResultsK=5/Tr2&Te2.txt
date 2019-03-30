@@ -1,0 +1,51 @@
+Classifier...: weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Training file: C:\Users\HP\Desktop\AbdulAli\Configuration2\dataK=5\TrainingFiles\E-File1to6.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Configuration2\dataK=5\TestingFiles\E-File7to11.csv
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                           Class
+Variable                   FALSE
+================================
+PercentLackOfCohesion    -0.0058
+MaxInheritanceTree        0.0051
+CountClassDerived        -0.0291
+CountClassCoupled        -0.0517
+CountClassBase           -0.2433
+Intercept                 3.0753
+
+
+Odds Ratios...
+                           Class
+Variable                   FALSE
+================================
+PercentLackOfCohesion     0.9942
+MaxInheritanceTree        1.0051
+CountClassDerived         0.9713
+CountClassCoupled         0.9496
+CountClassBase             0.784
+
+
+Correctly Classified Instances        4594               88.9793 %
+Incorrectly Classified Instances       569               11.0207 %
+Kappa statistic                          0.1224
+Mean absolute error                      0.1756
+Root mean squared error                  0.2988
+Relative absolute error                 86.197  %
+Root relative squared error             93.2389 %
+Total Number of Instances             5163     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4547   16 |    a = FALSE
+  553   47 |    b = TRUE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.996    0.922    0.892      0.996    0.941      0.218    0.767     0.951     FALSE
+                 0.078    0.004    0.746      0.078    0.142      0.218    0.767     0.408     TRUE
+Weighted Avg.    0.890    0.815    0.875      0.890    0.848      0.218    0.767     0.888     
+

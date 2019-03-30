@@ -1,0 +1,70 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     11-groovy-1_5_7
+Instances:    757
+Attributes:   6
+              PercentLackOfCohesion
+              MaxInheritanceTree
+              CountClassDerived
+              CountClassCoupled
+              CountClassBase
+              HeuBug
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                           Class
+Variable                   FALSE
+================================
+PercentLackOfCohesion    -0.0187
+MaxInheritanceTree        0.0642
+CountClassDerived         0.0253
+CountClassCoupled        -0.0829
+CountClassBase            -0.252
+Intercept                 3.7074
+
+
+Odds Ratios...
+                           Class
+Variable                   FALSE
+================================
+PercentLackOfCohesion     0.9815
+MaxInheritanceTree        1.0663
+CountClassDerived         1.0257
+CountClassCoupled         0.9204
+CountClassBase            0.7773
+
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1158               76.4356 %
+Incorrectly Classified Instances       357               23.5644 %
+Kappa statistic                          0.0249
+Mean absolute error                      0.265 
+Root mean squared error                  0.4378
+Relative absolute error                 89.7885 %
+Root relative squared error             97.9327 %
+Total Number of Instances             1515     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.983    0.763      1.000    0.866      0.112    0.671     0.841     FALSE
+                 0.017    0.000    1.000      0.017    0.033      0.112    0.671     0.429     TRUE
+Weighted Avg.    0.764    0.748    0.820      0.764    0.666      0.112    0.671     0.742     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1152    0 |    a = FALSE
+  357    6 |    b = TRUE
+
