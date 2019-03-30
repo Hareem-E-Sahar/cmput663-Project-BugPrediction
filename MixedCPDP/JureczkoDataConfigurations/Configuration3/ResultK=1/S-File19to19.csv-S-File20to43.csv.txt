@@ -1,0 +1,81 @@
+Classifier...: weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Training file: C:\Users\HP\Desktop\AbdulAli\Jureczko\Configuration3\dataK=1\TrainingFiles\S-File19to19.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Jureczko\Configuration3\dataK=1\TestingFiles\S-File20to43.csv
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                             Class
+Variable                       Yes
+==================================
+wmc                        -4.5808
+dit                         1.8644
+noc                        -2.1831
+cbo                         9.3537
+rfc                         1.7523
+lcom                        1.9769
+ca                         -7.7877
+ce                         -6.5491
+npm                         6.5535
+lcom3                      -0.0134
+loc                         0.1638
+dam                        -5.2127
+moa                        -4.8827
+mfa                       -15.6938
+cam                         5.2461
+ic                         278.567
+cbm                        -21.276
+amc                         0.1559
+max_cc                     -4.0638
+avg_cc                     -2.9428
+Intercept                  -1.3269
+
+
+Odds Ratios...
+                             Class
+Variable                       Yes
+==================================
+wmc                         0.0102
+dit                         6.4521
+noc                         0.1127
+cbo                     11541.6582
+rfc                          5.768
+lcom                        7.2206
+ca                          0.0004
+ce                          0.0014
+npm                       701.7081
+lcom3                       0.9866
+loc                          1.178
+dam                         0.0054
+moa                         0.0076
+mfa                              0
+cam                       189.8227
+ic           9.552814339519593E120
+cbm                              0
+amc                         1.1688
+max_cc                      0.0172
+avg_cc                      0.0527
+
+
+Correctly Classified Instances        5896               69.3076 %
+Incorrectly Classified Instances      2611               30.6924 %
+Kappa statistic                         -0.0084
+Mean absolute error                      0.3098
+Root mean squared error                  0.5536
+Relative absolute error                 73.7601 %
+Root relative squared error            120.8016 %
+Total Number of Instances             8507     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 5879   76 |    a = No
+ 2535   17 |    b = Yes
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.987    0.993    0.699      0.987    0.818      -0.027   0.412     0.659     No
+                 0.007    0.013    0.183      0.007    0.013      -0.027   0.349     0.227     Yes
+Weighted Avg.    0.693    0.699    0.544      0.693    0.577      -0.027   0.393     0.530     
+

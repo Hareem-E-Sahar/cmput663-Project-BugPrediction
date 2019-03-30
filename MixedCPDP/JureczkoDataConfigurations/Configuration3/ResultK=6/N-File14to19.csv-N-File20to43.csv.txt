@@ -1,0 +1,81 @@
+Classifier...: weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Training file: C:\Users\HP\Desktop\AbdulAli\Jureczko\Configuration3\dataK=6\TrainingFiles\N-File14to19.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Jureczko\Configuration3\dataK=6\TestingFiles\N-File20to43.csv
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+               Class
+Variable         Yes
+====================
+wmc          -0.0143
+dit          -0.0917
+noc           0.0365
+cbo          -0.0039
+rfc          -0.0001
+lcom          0.0004
+ca            0.0129
+ce           -0.0044
+npm           0.0268
+lcom3        -0.5507
+loc           0.0007
+dam           -0.701
+moa          -0.0077
+mfa           0.2165
+cam          -0.1546
+ic            0.0377
+cbm           0.0243
+amc           0.0129
+max_cc        0.0448
+avg_cc       -0.1998
+Intercept     1.3682
+
+
+Odds Ratios...
+               Class
+Variable         Yes
+====================
+wmc           0.9858
+dit           0.9124
+noc           1.0372
+cbo           0.9961
+rfc           0.9999
+lcom          1.0004
+ca             1.013
+ce            0.9956
+npm           1.0271
+lcom3         0.5766
+loc           1.0007
+dam           0.4961
+moa           0.9924
+mfa           1.2417
+cam           0.8568
+ic            1.0384
+cbm           1.0246
+amc            1.013
+max_cc        1.0458
+avg_cc        0.8189
+
+
+Correctly Classified Instances        5444               63.9944 %
+Incorrectly Classified Instances      3063               36.0056 %
+Kappa statistic                         -0.0913
+Mean absolute error                      0.4725
+Root mean squared error                  0.5061
+Relative absolute error                112.4986 %
+Root relative squared error            110.4489 %
+Total Number of Instances             8507     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 5381  574 |    a = No
+ 2489   63 |    b = Yes
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.904    0.975    0.684      0.904    0.778      -0.125   0.314     0.592     No
+                 0.025    0.096    0.099      0.025    0.040      -0.125   0.314     0.215     Yes
+Weighted Avg.    0.640    0.712    0.508      0.640    0.557      -0.125   0.314     0.479     
+

@@ -1,0 +1,81 @@
+Classifier...: weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Training file: C:\Users\HP\Desktop\AbdulAli\Jureczko\Configuration3\dataK=1\TrainingFiles\n-File40to40.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Jureczko\Configuration3\dataK=1\TestingFiles\n-File41to43.csv
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                   Class
+Variable              No
+========================
+wmc               -0.192
+dit               -1.278
+noc              -0.1843
+cbo               -0.406
+rfc              -0.0113
+lcom              0.0081
+ca                0.3871
+ce                0.2946
+npm                 0.04
+lcom3            -0.5755
+loc              -0.0031
+dam               0.8404
+moa              -0.0038
+mfa               2.4146
+cam                1.359
+ic              -12.3679
+cbm              13.7225
+amc               0.0954
+max_cc            0.1779
+avg_cc           -1.2202
+Intercept          6.579
+
+
+Odds Ratios...
+                   Class
+Variable              No
+========================
+wmc               0.8253
+dit               0.2786
+noc               0.8317
+cbo               0.6663
+rfc               0.9888
+lcom              1.0082
+ca                1.4726
+ce                1.3427
+npm               1.0408
+lcom3             0.5624
+loc               0.9969
+dam               2.3174
+moa               0.9962
+mfa               11.185
+cam               3.8922
+ic                     0
+cbm          911199.9934
+amc               1.1001
+max_cc            1.1947
+avg_cc            0.2952
+
+
+Correctly Classified Instances        1901               77.7505 %
+Incorrectly Classified Instances       544               22.2495 %
+Kappa statistic                          0.0555
+Mean absolute error                      0.2335
+Root mean squared error                  0.4506
+Relative absolute error                 67.0238 %
+Root relative squared error            107.9947 %
+Total Number of Instances             2445     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1874   22 |    a = No
+  522   27 |    b = Yes
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.988    0.951    0.782      0.988    0.873      0.112    0.561     0.787     No
+                 0.049    0.012    0.551      0.049    0.090      0.112    0.561     0.323     Yes
+Weighted Avg.    0.778    0.740    0.730      0.778    0.697      0.112    0.561     0.683     
+
