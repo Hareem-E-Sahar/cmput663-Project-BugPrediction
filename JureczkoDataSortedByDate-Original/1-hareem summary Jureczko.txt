@@ -1,0 +1,46 @@
+version(1.1,1.2,...)  name(module)   metrics    number of defects(0,1,2..)
+
+The complete data set consists of 48 product releases of 15 open source projects,
+Apache Ant (1.3 – 1.7), 
+Apache Camel (1.0 – 1.6), 
+Ckjm (1.8),
+Apache Forrest (0.6 – 0.8),
+Apache Ivy (1.1 – 2.0), 
+JEdit (3.2.1 – 4.3),
+Apache Log4j (1.0 – 1.2),
+Apache Lucene (2.0 – 2.2),
+PBeans (1.0 and 2.0),
+Apache POI (1.5 – 3.0),
+Apache Synapse (1.0 – 1.2),
+Apache Tomcat (6.0),
+Apache Velocity (1.4 – 1.6.1),
+Apache Xalan-Java (2.4.0 – 2.7.0),
+Apache Xerces (1.1.0 – 1.4.4). 
+A more comprehensive discussion of most of those projects was given in [8].
+
+
+27 product releases of 6 proprietary projects and
+17 academic products that were implemented by students,
+i.e., 92 released products in total.
+
+As metrics, they collected 20 static product metrics for Java classes
+including CK metrics, as well as the number of defects that were found 
+in each class. The defect labels are extracted from the SourceCode 
+Management system (SCM) using a regular expression.
+
+We do not use the proprietary products in our benchmark
+to avoid mixing closed and open source data, which
+would add a potential threat to the validity of our
+results.(So 27 releases of 6 proprietary projects are excluded)
+
+Moreover, three of the academic products
+contain less than five defective instances, which is too
+few for reasonable analysis with machine learning.
+(So 3 academic products are excluded and 14 are left)
+
+
+Hence, we use 62 open source and academic products, to which we refer as JURECZKO in the following.
+
+It shall be 15 open source projects + 14 academic but I only see 20 folders
+
+
